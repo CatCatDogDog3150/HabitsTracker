@@ -1,16 +1,3 @@
-"""
-HabitsTracker - 習慣追跡アプリケーション
+## Overview
 
-このアプリケーションは、日々の習慣を追跡し視覚化するためのシンプルなカレンダーベースの
-トラッキングツールです。ユーザーは習慣を定義し、各日にちごとに完了状態を
-トグルすることができます。
-
-主な機能:
-- 月別カレンダービュー
-- 最大10個の習慣を追跡可能
-- データの自動保存と読み込み
-- シンプルな視覚的フィードバック
-
-作成者: CatCatDogDog3150
-日付: 2025-05-02
-"""
+This application is a simple, calendar-based habit tracking tool that helps users monitor and visualize their daily routines. Users can define habits and toggle their completion status for each day.
