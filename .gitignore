@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8f4b22a (初回コミット：HabitsTrackerプロジェクト)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +176,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+<<<<<<< HEAD
+=======
+=======
+# 一時ファイルやビルドファイルを無視する
+node_modules/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+>>>>>>> b0edb69 (初回コミット：HabitsTrackerプロジェクト)
+>>>>>>> 8f4b22a (初回コミット：HabitsTrackerプロジェクト)
