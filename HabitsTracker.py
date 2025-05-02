@@ -1,19 +1,44 @@
+
 """
 HabitsTracker - 習慣追跡アプリケーション
+========================================
 
-このアプリケーションは、日々の習慣を追跡し視覚化するためのシンプルなカレンダーベースの
-トラッキングツールです。ユーザーは習慣を定義し、各日にちごとに完了状態を
-トグルすることができます。
+Version: 1.0.0 (初期リリース)  
+最終更新: 2025-05-02
+
+概要:
+このアプリケーションは、日々の習慣を追跡し視覚化するための
+シンプルなカレンダーベースのトラッキングツールです。
+ユーザーは習慣を定義し、各日ごとに完了状態をトグルできます。
 
 主な機能:
 - 月別カレンダービュー
 - 最大10個の習慣を追跡可能
 - データの自動保存と読み込み
 - シンプルな視覚的フィードバック
+- キーボードショートカット対応
 
-作成者: CatCatDogDog3150
-日付: 2025-05-02
+技術スタック:
+- Python 3.x
+- Tkinter
+- pickle（データ保存用）
+
+更新履歴:
+- v1.0.0 (2025-05-02): 初期リリース
+
+今後の計画:
+- [ ] モバイル対応
+- [ ] 習慣達成の統計表示
+- [ ] テーマカスタマイズ
+
+貢献:
+バグ報告や機能リクエストは GitHub の Issue にて受け付けています。  
+プルリクエストも歓迎します。
+
+作成者: CatCatDogDog3150  
+ライセンス: MIT License
 """
+
 
 import tkinter as tk
 from tkinter import messagebox
@@ -295,7 +320,7 @@ class CalendarApp:
         update_button = tk.Button(
             self.control_frame, 
             text="更新", 
-            #command=self._on_update_button_click,
+            command=self._on_update_button_click,
             padx=10
         )
         update_button.grid(row=0, column=4, padx=10, pady=10)
